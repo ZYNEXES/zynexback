@@ -27,7 +27,12 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'fallback-secret-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'backend-157g.onrender.com',  # Add your Render domain
+    '127.0.0.1',  # Localhost for testing
+    'localhost'
+]
+
 
 
 # Application definition
@@ -78,7 +83,8 @@ TEMPLATES = [
 WSGI_APPLICATION = 'znxbck.wsgi.application'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Adjust as needed
+    "http://localhost:3000",
+    "backend-157g.onrender.com",# Adjust as needed
     "http://127.0.0.1:3000",
 ]
 
