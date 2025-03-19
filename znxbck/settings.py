@@ -87,6 +87,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "backend-157g.onrender.com",# Adjust as needed
     "http://127.0.0.1:3000",
+    "https://zynexfront-nu.vercel.app/",
 ]
 
 # Database
