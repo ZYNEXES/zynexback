@@ -28,7 +28,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'fallback-secret-key')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'backend-157g.onrender.com',  # Add your Render domain
+    'https://backend-157g.onrender.com',  # Add your Render domain
     '127.0.0.1',  # Localhost for testing
     'localhost'
 ]
@@ -85,9 +85,9 @@ WSGI_APPLICATION = 'znxbck.wsgi.application'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "backend-157g.onrender.com",# Adjust as needed
+    "https://backend-157g.onrender.com",# Adjust as needed
     "http://127.0.0.1:3000",
-    "https://zynexfront-nu.vercel.app/",
+    "https://zynexfront-nu.vercel.app",
 ]
 
 # Database
