@@ -28,7 +28,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'fallback-secret-key')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://backend-157g.onrender.com',  # Add your Render domain
+    'backend-157g.onrender.com',  # Add your Render domain
     '127.0.0.1',  # Localhost for testing
     'localhost'
 ]
